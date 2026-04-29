@@ -1,0 +1,1714 @@
+{
+  "kb_name": "camera_buying_guide_local_cn_v2",
+  "language": "zh-CN",
+  "source_file": "相机选购指南-量价分析 (1).xlsx",
+  "selected_sheets": [
+    "4000 档",
+    "6000 档",
+    "9-12000",
+    "12-16000"
+  ],
+  "score_scale": "0-10，分数越高越好",
+  "design_note": "面向摄影小白，优先保留最容易理解和最适合推荐决策的维度。尽量使用原表已有打分；若源表未打分，则保留规格信息并将对应评分设为 null。",
+  "beginner_dimensions": {
+    "price": "当前大致价格，单位人民币；若源表给出多个渠道价格，则同时保留显示文本和最低/最高价格。",
+    "autofocus_points": "对焦点数量，只作参考；真正好不好用，更建议看下方的对焦评分。",
+    "stabilization": "是否有机身防抖，以及官方 CIPA 防抖级数。",
+    "screen": "屏幕类型与尺寸。翻转屏更适合自拍/录视频；倾斜屏更偏拍照。",
+    "burst_fps": "连拍速度，越高越适合抓拍运动或扫街瞬间。",
+    "video_spec": "源表中的视频规格摘要。",
+    "battery_life_cipa": "CIPA 续航张数，只作相对比较。",
+    "weight_g": "含电池机身重量，越轻越适合旅行。",
+    "video_scores": {
+      "overall": "视频综合分",
+      "autofocus": "视频对焦稳不稳、准不准",
+      "recording_spec": "视频规格是否够用，如 4K、裁切、位深等",
+      "continuous_recording": "长时间录制能力",
+      "image_quality": "视频画质",
+      "stabilization": "视频防抖表现",
+      "battery": "视频续航",
+      "audio": "收音/音频便利性",
+      "screen": "视频使用时的屏幕体验"
+    },
+    "photo_scores": {
+      "overall": "拍照综合分",
+      "image_quality": "照片画质",
+      "autofocus": "拍照对焦表现",
+      "burst": "拍照连拍能力",
+      "stabilization": "拍照防抖表现",
+      "handling": "操控与上手体验",
+      "battery": "拍照续航",
+      "screen_viewfinder": "屏幕与取景器体验"
+    }
+  },
+  "cameras": [
+    {
+      "name": "索尼ZV-E10",
+      "price_band": "4000 档",
+      "price": {
+        "display": "4500",
+        "min_cny": 4500,
+        "max_cny": 4500
+      },
+      "release_date": "2021-07-27",
+      "mount": "Sony E",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": "4K/30p1.2x 裁切\n24p 无裁切",
+      "battery_life_cipa": 440,
+      "weight_g": 343,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 6.8,
+        "autofocus": 8,
+        "recording_spec": 6.5,
+        "continuous_recording": 8,
+        "image_quality": 7,
+        "stabilization": 4,
+        "battery": 7,
+        "audio": 7,
+        "screen": 7
+      },
+      "photo_scores": {
+        "overall": 5.5,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 7,
+        "stabilization": 0,
+        "handling": 5,
+        "battery": 7,
+        "screen_viewfinder": 4
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康Z30",
+      "price_band": "4000 档",
+      "price": {
+        "display": "4700",
+        "min_cny": 4700,
+        "max_cny": 4700
+      },
+      "release_date": "2022-06-29",
+      "mount": "Nikon Z",
+      "autofocus_points": 209,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": "4K/30p 无裁剪",
+      "battery_life_cipa": 330,
+      "weight_g": 405,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": 6.4,
+        "autofocus": 7,
+        "recording_spec": 7,
+        "continuous_recording": 7,
+        "image_quality": 7.5,
+        "stabilization": 4,
+        "battery": 7,
+        "audio": 5,
+        "screen": 7
+      },
+      "photo_scores": {
+        "overall": 5.6,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 7,
+        "stabilization": 0,
+        "handling": 6,
+        "battery": 7,
+        "screen_viewfinder": 4
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能EOS R50",
+      "price_band": "4000 档",
+      "price": {
+        "display": "5000",
+        "min_cny": 5000,
+        "max_cny": 5000
+      },
+      "release_date": "2023-02-08",
+      "mount": "Canon RF",
+      "autofocus_points": 651,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 12,
+      "video_spec": "4K/30p 无裁剪\n8 位或 10 位 HDR 模式",
+      "battery_life_cipa": null,
+      "weight_g": 375,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": 6.2,
+        "autofocus": 7,
+        "recording_spec": 7,
+        "continuous_recording": 6,
+        "image_quality": 7.5,
+        "stabilization": 4,
+        "battery": 6,
+        "audio": 5,
+        "screen": 7
+      },
+      "photo_scores": {
+        "overall": 6.1,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 6,
+        "stabilization": 0,
+        "handling": 8,
+        "battery": 7.5,
+        "screen_viewfinder": 6
+      },
+      "notes": "电子快门",
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康Z50",
+      "price_band": "4000 档",
+      "price": {
+        "display": "5000",
+        "min_cny": 5000,
+        "max_cny": 5000
+      },
+      "release_date": "2019-10-10",
+      "mount": "Nikon Z",
+      "autofocus_points": 209,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3.2
+      },
+      "burst_fps": 11,
+      "video_spec": "4K/30p 无裁剪",
+      "battery_life_cipa": 320,
+      "weight_g": 450,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": 6.1,
+        "autofocus": 7,
+        "recording_spec": 7,
+        "continuous_recording": 6,
+        "image_quality": 7.5,
+        "stabilization": 4,
+        "battery": 7,
+        "audio": 5,
+        "screen": 5
+      },
+      "photo_scores": {
+        "overall": 6.3,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 7,
+        "stabilization": 0,
+        "handling": 8,
+        "battery": 7,
+        "screen_viewfinder": 6.5
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能EOS R10",
+      "price_band": "4000 档",
+      "price": {
+        "display": "6000",
+        "min_cny": 6000,
+        "max_cny": 6000
+      },
+      "release_date": "2022-05-24",
+      "mount": "Canon RF",
+      "autofocus_points": 651,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 15,
+      "video_spec": "4K/30p 无裁剪\n4K/60 1.56倍 裁切",
+      "battery_life_cipa": 450,
+      "weight_g": 426,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": 6.4,
+        "autofocus": 7,
+        "recording_spec": 8,
+        "continuous_recording": 6,
+        "image_quality": 8,
+        "stabilization": 4,
+        "battery": 6,
+        "audio": 5,
+        "screen": 7
+      },
+      "photo_scores": {
+        "overall": 6.7,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 8,
+        "stabilization": 0,
+        "handling": 8,
+        "battery": 7.5,
+        "screen_viewfinder": 8
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康Z fc",
+      "price_band": "4000 档",
+      "price": {
+        "display": "6000",
+        "min_cny": 6000,
+        "max_cny": 6000
+      },
+      "release_date": "2021-06-29",
+      "mount": "Nikon Z",
+      "autofocus_points": 209,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": "4K/30p 无裁剪",
+      "battery_life_cipa": 300,
+      "weight_g": 445,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a6400",
+      "price_band": "4000 档",
+      "price": {
+        "display": "6000",
+        "min_cny": 6000,
+        "max_cny": 6000
+      },
+      "release_date": "2019-01-15",
+      "mount": "Sony E",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": "4K 24p 无裁剪\n4K 30p 1.2x 裁剪",
+      "battery_life_cipa": 410,
+      "weight_g": 403,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": 6.5,
+        "autofocus": 8,
+        "recording_spec": 6.5,
+        "continuous_recording": 8,
+        "image_quality": 7,
+        "stabilization": 4,
+        "battery": 7,
+        "audio": 5,
+        "screen": 6.5
+      },
+      "photo_scores": {
+        "overall": 6.1,
+        "image_quality": 7.5,
+        "autofocus": 8,
+        "burst": 7,
+        "stabilization": 0,
+        "handling": 7,
+        "battery": 7,
+        "screen_viewfinder": 6.5
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能EOS R100",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2023-05-24",
+      "mount": "Canon RF",
+      "autofocus_points": 143,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "固定的",
+        "size_inch": 3
+      },
+      "burst_fps": 6.5,
+      "video_spec": null,
+      "battery_life_cipa": null,
+      "weight_g": 356,
+      "ports": {
+        "usb_charging": false,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "富士胶片X-T200",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2020-01-23",
+      "mount": "Fujifilm X",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3.5
+      },
+      "burst_fps": 8,
+      "video_spec": "4K/30p 无裁剪",
+      "battery_life_cipa": 270,
+      "weight_g": 370,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a6100",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2014-02-12",
+      "mount": "Sony E",
+      "autofocus_points": 179,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": null,
+      "battery_life_cipa": 360,
+      "weight_g": 344,
+      "ports": {
+        "usb_charging": null,
+        "mic_jack": false,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻"
+      ]
+    },
+    {
+      "name": "索尼a6300",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2016-02-03",
+      "mount": "Sony E",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": null,
+      "battery_life_cipa": 400,
+      "weight_g": 404,
+      "ports": {
+        "usb_charging": null,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a6500",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2016-10-06",
+      "mount": "Sony E",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": null,
+      "battery_life_cipa": 350,
+      "weight_g": 453,
+      "ports": {
+        "usb_charging": null,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a6600",
+      "price_band": "4000 档",
+      "price": {
+        "display": null,
+        "min_cny": null,
+        "max_cny": null
+      },
+      "release_date": "2019-08-28",
+      "mount": "Sony E",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": null,
+      "battery_life_cipa": 810,
+      "weight_g": 503,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能 EOS RP",
+      "price_band": "6000 档",
+      "price": {
+        "display": "6000（5200）",
+        "min_cny": 5200,
+        "max_cny": 6000
+      },
+      "release_date": "2019 年 2 月 14 日",
+      "mount": "RF",
+      "autofocus_points": 4779,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 5,
+      "video_spec": null,
+      "battery_life_cipa": 250,
+      "weight_g": 485,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康 Z5",
+      "price_band": "6000 档",
+      "price": {
+        "display": "6500",
+        "min_cny": 6500,
+        "max_cny": 6500
+      },
+      "release_date": "2020 年 7 月 21 日",
+      "mount": "Z",
+      "autofocus_points": 273,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 5
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3.2
+      },
+      "burst_fps": 4.5,
+      "video_spec": null,
+      "battery_life_cipa": 470,
+      "weight_g": 675,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "富士 X-E4",
+      "price_band": "6000 档",
+      "price": {
+        "display": "8000",
+        "min_cny": 8000,
+        "max_cny": 8000
+      },
+      "release_date": "2021 年 1 月 27 日",
+      "mount": "Fujifilm X",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3
+      },
+      "burst_fps": 20,
+      "video_spec": null,
+      "battery_life_cipa": 380,
+      "weight_g": 364,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "富士 X-S10",
+      "price_band": "6000 档",
+      "price": {
+        "display": "8000",
+        "min_cny": 8000,
+        "max_cny": 8000
+      },
+      "release_date": "2020 年 10 月 15 日",
+      "mount": "Fujifilm X",
+      "autofocus_points": 425,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 6
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 20,
+      "video_spec": null,
+      "battery_life_cipa": 325,
+      "weight_g": 465,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": false
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "适马 fp",
+      "price_band": "6000 档",
+      "price": {
+        "display": "8500",
+        "min_cny": 8500,
+        "max_cny": 8500
+      },
+      "release_date": "2019 年 7 月 11 日",
+      "mount": "L",
+      "autofocus_points": 49,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "固定屏幕",
+        "size_inch": 3.2
+      },
+      "burst_fps": 18,
+      "video_spec": null,
+      "battery_life_cipa": 280,
+      "weight_g": 422,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "机身较轻",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能 EOS R7",
+      "price_band": "6000 档",
+      "price": {
+        "display": "9000",
+        "min_cny": 9000,
+        "max_cny": 9000
+      },
+      "release_date": "2022 年 5 月 24 日",
+      "mount": "Canon RF",
+      "autofocus_points": 651,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 6
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 15,
+      "video_spec": "4K/30\n4K/60",
+      "battery_life_cipa": 660,
+      "weight_g": 612,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 7.1,
+        "autofocus": 7,
+        "recording_spec": 7,
+        "continuous_recording": 7,
+        "image_quality": 8,
+        "stabilization": 8,
+        "battery": 7,
+        "audio": 5,
+        "screen": 7.5
+      },
+      "photo_scores": {
+        "overall": 7.9,
+        "image_quality": 8,
+        "autofocus": 8,
+        "burst": 8,
+        "stabilization": 8,
+        "handling": 8,
+        "battery": 7,
+        "screen_viewfinder": 8
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "拍照不错",
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼 a6700",
+      "price_band": "6000 档",
+      "price": {
+        "display": "9000",
+        "min_cny": 9000,
+        "max_cny": 9000
+      },
+      "release_date": "2023 年 7 月 12 日",
+      "mount": "Sony E",
+      "autofocus_points": 759,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 5
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 11,
+      "video_spec": "4K/60 \n4K/120（1.58倍裁切）",
+      "battery_life_cipa": 570,
+      "weight_g": 493,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 7.6,
+        "autofocus": 8.5,
+        "recording_spec": 8.5,
+        "continuous_recording": 8,
+        "image_quality": 8.5,
+        "stabilization": 6,
+        "battery": 7,
+        "audio": 7,
+        "screen": 7
+      },
+      "photo_scores": {
+        "overall": 7.2,
+        "image_quality": 7.5,
+        "autofocus": 8.5,
+        "burst": 7,
+        "stabilization": 6,
+        "handling": 7.5,
+        "battery": 7,
+        "screen_viewfinder": 7
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "视频不错",
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能EOS R8",
+      "price_band": "9-12000",
+      "price": {
+        "display": "9500（国行）\n8300（港行）",
+        "min_cny": 8300,
+        "max_cny": 9500
+      },
+      "release_date": "2023 年 2 月 8 日",
+      "mount": null,
+      "autofocus_points": 1053,
+      "stabilization": {
+        "type": "无机身防抖",
+        "cipa_stops": null
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 6,
+      "video_spec": null,
+      "battery_life_cipa": null,
+      "weight_g": 461,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 8,
+        "autofocus": 7.5,
+        "recording_spec": 8,
+        "continuous_recording": 7.5,
+        "image_quality": 8.5,
+        "stabilization": 6,
+        "battery": 6,
+        "audio": 5,
+        "screen": 7.5
+      },
+      "photo_scores": {
+        "overall": 7.7,
+        "image_quality": 8.5,
+        "autofocus": 8.5,
+        "burst": 7,
+        "stabilization": 0,
+        "handling": 8,
+        "battery": 7,
+        "screen_viewfinder": 8
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "视频不错",
+        "拍照不错",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康 Z6 II",
+      "price_band": "9-12000",
+      "price": {
+        "display": "9800",
+        "min_cny": 9800,
+        "max_cny": 9800
+      },
+      "release_date": "2020 年 10 月 14 日",
+      "mount": null,
+      "autofocus_points": 273,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 5
+      },
+      "screen": {
+        "type": "倾斜",
+        "size_inch": 3.2
+      },
+      "burst_fps": 14,
+      "video_spec": null,
+      "battery_life_cipa": 410,
+      "weight_g": 705,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 8.3,
+        "autofocus": 8,
+        "recording_spec": 7,
+        "continuous_recording": 7.5,
+        "image_quality": 8.5,
+        "stabilization": 7.5,
+        "battery": 7.5,
+        "audio": 5,
+        "screen": 7.5
+      },
+      "photo_scores": {
+        "overall": 9,
+        "image_quality": 8.5,
+        "autofocus": 8.5,
+        "burst": 8,
+        "stabilization": 7.5,
+        "handling": 8,
+        "battery": 7.5,
+        "screen_viewfinder": 8
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "视频强",
+        "拍照强",
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "松下 Lumix DC-S5II",
+      "price_band": "9-12000",
+      "price": {
+        "display": "10700",
+        "min_cny": 10700,
+        "max_cny": 10700
+      },
+      "release_date": "2023 年 1 月 4 日",
+      "mount": null,
+      "autofocus_points": 779,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 6.5
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 9,
+      "video_spec": null,
+      "battery_life_cipa": 370,
+      "weight_g": 740,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": 8.6,
+        "autofocus": 7,
+        "recording_spec": 8.5,
+        "continuous_recording": 8.5,
+        "image_quality": 8.5,
+        "stabilization": 8.5,
+        "battery": 7.5,
+        "audio": 5,
+        "screen": 7.5
+      },
+      "photo_scores": {
+        "overall": 9,
+        "image_quality": 8.5,
+        "autofocus": 8,
+        "burst": 7.5,
+        "stabilization": 8,
+        "handling": 8,
+        "battery": 7.5,
+        "screen_viewfinder": 8.5
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": true,
+        "photo_scored": true
+      },
+      "beginner_tags": [
+        "视频强",
+        "拍照强",
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a7C II",
+      "price_band": "12-16000",
+      "price": {
+        "display": "12900",
+        "min_cny": 12900,
+        "max_cny": 12900
+      },
+      "release_date": "2023 年 8 月 29 日",
+      "mount": null,
+      "autofocus_points": 759,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 7
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 10,
+      "video_spec": null,
+      "battery_life_cipa": 540,
+      "weight_g": 514,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼ZV-E1",
+      "price_band": "12-16000",
+      "price": {
+        "display": "13500",
+        "min_cny": 13500,
+        "max_cny": 13500
+      },
+      "release_date": "2023 年 3 月 29 日",
+      "mount": null,
+      "autofocus_points": 759,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 5
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": null,
+      "video_spec": null,
+      "battery_life_cipa": 570,
+      "weight_g": 483,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "佳能 EOS R6 Mark II",
+      "price_band": "12-16000",
+      "price": {
+        "display": "13900",
+        "min_cny": 13900,
+        "max_cny": 13900
+      },
+      "release_date": "2022 年 11 月 2 日",
+      "mount": null,
+      "autofocus_points": null,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 8
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 40,
+      "video_spec": null,
+      "battery_life_cipa": 580,
+      "weight_g": 670,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "尼康Zf",
+      "price_band": "12-16000",
+      "price": {
+        "display": "14300",
+        "min_cny": 14300,
+        "max_cny": 14300
+      },
+      "release_date": "2023 年 9 月 20 日",
+      "mount": null,
+      "autofocus_points": 273,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 8
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3.2
+      },
+      "burst_fps": 14,
+      "video_spec": null,
+      "battery_life_cipa": 380,
+      "weight_g": 710,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "可外接麦克风"
+      ]
+    },
+    {
+      "name": "索尼a7 IV",
+      "price_band": "12-16000",
+      "price": {
+        "display": "14500",
+        "min_cny": 14500,
+        "max_cny": 14500
+      },
+      "release_date": "2021 年 10 月 21 日",
+      "mount": null,
+      "autofocus_points": 759,
+      "stabilization": {
+        "type": "机身防抖",
+        "cipa_stops": 5.5
+      },
+      "screen": {
+        "type": "翻转屏",
+        "size_inch": 3
+      },
+      "burst_fps": 10,
+      "video_spec": null,
+      "battery_life_cipa": 580,
+      "weight_g": 659,
+      "ports": {
+        "usb_charging": true,
+        "mic_jack": true,
+        "headphone_jack": true
+      },
+      "video_scores": {
+        "overall": null,
+        "autofocus": null,
+        "recording_spec": null,
+        "continuous_recording": null,
+        "image_quality": null,
+        "stabilization": null,
+        "battery": null,
+        "audio": null,
+        "screen": null
+      },
+      "photo_scores": {
+        "overall": null,
+        "image_quality": null,
+        "autofocus": null,
+        "burst": null,
+        "stabilization": null,
+        "handling": null,
+        "battery": null,
+        "screen_viewfinder": null
+      },
+      "notes": null,
+      "score_coverage": {
+        "video_scored": false,
+        "photo_scored": false
+      },
+      "beginner_tags": [
+        "有机身防抖",
+        "续航较强",
+        "可外接麦克风"
+      ]
+    }
+  ],
+  "source_limitations": [
+    "4000 档与 6000 档中，部分机型只有规格信息，没有现成评分。",
+    "12-16000 这一档在源表中未填写视频/拍照评分，因此本 JSON 仅保留规格信息，评分字段为 null。",
+    "部分价格是多渠道价格或旧机型历史价，因此建议 Agent 优先用 min_cny 做粗筛，再结合 display 文本向用户解释。"
+  ]
+}
